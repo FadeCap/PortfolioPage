@@ -1,0 +1,30 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-background {
+
+  background: rgb(104, 35, 122);
+  background: radial-gradient(
+    circle,
+    rgba(104, 35, 122, 1) 0%,
+    rgba(18, 18, 18, 1) 100%
+  );
+}
+
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.nav-bar {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+@media (max-width: 768px)
