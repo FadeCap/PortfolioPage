@@ -3,13 +3,29 @@ html {
 }
 
 .body-background {
-
+  height: 100vh;
   background: rgb(104, 35, 122);
   background: radial-gradient(
     circle,
     rgba(104, 35, 122, 1) 0%,
     rgba(18, 18, 18, 1) 100%
   );
+}
+
+.button {
+  box-decoration-break: none;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  max-width: 300px;
+  max-height: 150px;
+  border-radius: 8px;
 }
 
 
@@ -25,6 +41,7 @@ html {
     list-style: none;
     display: flex;
     gap: 5rem;
+    margin: 3rem;
 }
 
 @media (max-width: 768px) {
