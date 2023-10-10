@@ -11,39 +11,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio page" />
 
+    <script type="module" src="app.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body class="body-background">
-    <header class="header-container">
-      <div class="nav-bar-container">
-        <div class="nav-bar">
-          <div class="nav-link">
-            Home
-          </div>
-          <div class="nav-link">
-            My expertise
-          </div>
-          <div class="nav-link">
-            Projects
-          </div>
-          <div class="nav-link">
-            Contact
-          </div>
+    <header>
+      <div class="header-container" id="home">
+        <div class="nav-bar-container">
+          <ul class="nav-bar">
+            <li class="nav-link">
+              <a href="#home">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="nav-link">
+              <a href="#expertise">My expertise</a>
+            </li>
+            <li class="nav-link">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
 
     <main>
-      <div class="welcome-text">
-        <h2>Welcome to my portfolio</h2>
-        <p>Hello! My name is Stian and i'm a student aspiring to become a full-time Front End developer. If you scroll down you can see some projects I have done. Thank you for taking time to look through my page!</p>
-      </div>
+
+      
+        <div class="welcome-text">
+          <h2 class="welcome-heading">Welcome to my portfolio</h2>
+          <div class="about-paragraph-container">
+            <p class="about-paragraph">
+              Hello! My name is Stian and i'm a student aspiring to become a
+              full-time Front End developer. If you scroll down you can see some
+              projects I have done. Thank you for taking time to look through my
+              portfolio!
+            </p>
+          </div>
+        </div>
+      
+      <!-- Project Cards -->
+      <div class="card-container" id="projects">
       <div class="card-container">
         <div class="card-container fadedisc-card">
           <div class="image-container">
-            <img class="images" src="/assets/FadeDisc-desktop.png" alt="FadeDisc desktop image">
-            <img class="images" src="/assets/FadeDisc-mobile.png" alt="FadeDisc mobile view image">
+            <img
+              class="images"
+              src="/assets/FadeDisc-desktop.png"
+              alt="FadeDisc desktop image"
+            />
+            <img
+              class="images"
+              src="/assets/FadeDisc-mobile.png"
+              alt="FadeDisc mobile view image"
+            />
           </div>
           <div class="button-container">
             <button class="button github-button">GitHub</button>
@@ -52,8 +76,16 @@
         </div>
         <div class="card-container musem-card">
           <div class="image-container">
-            <img class="images" src="/assets/Semester-Project-1-desktop.png" alt="Museum desktop image">
-            <img class="images" src="assets/Semester-Project-1-mobile.png" alt="Museum mobile view image">
+            <img
+              class="images"
+              src="/assets/Semester-Project-1-desktop.png"
+              alt="Museum desktop image"
+            />
+            <img
+              class="images"
+              src="assets/Semester-Project-1-mobile.png"
+              alt="Museum mobile view image"
+            />
           </div>
           <div class="button-container">
             <button class="button github-button">GitHub</button>
@@ -62,8 +94,16 @@
         </div>
         <div class="card-container rainy-days-card">
           <div class="image-container">
-            <img class="images" src="assets/Rainy-Days-Desktop.png" alt="Rainy Days desktop image">
-            <img class="images" src="assets/Rainy-Days-mobile.png" alt="Rainy Days mobile view image">
+            <img
+              class="images"
+              src="assets/Rainy-Days-Desktop.png"
+              alt="Rainy Days desktop image"
+            />
+            <img
+              class="images"
+              src="assets/Rainy-Days-mobile.png"
+              alt="Rainy Days mobile view image"
+            />
           </div>
           <div class="button-container">
             <button class="button github-button">GitHub</button>
@@ -71,6 +111,28 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- Project Cards End -->
+      
+      <div class="expertise-section" id="expertise">
+        <!-- Expertise section content -->
+      </div>
+      
+      <div class="contact-section" id="contact">
+        <!-- Contact section content -->
+      </div>
+      
+      
+
+      
+
+      <button class="scrollToTopBtn">
+        <img
+          class="to-top-arrow"
+          src="assets/scroll-to-top-button-arrow.svg"
+          alt="Scroll to top button"
+        />
+      </button>
     </main>
 
     <footer></footer>
