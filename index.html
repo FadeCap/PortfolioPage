@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
+          
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio page" />
@@ -28,7 +29,7 @@
               <a href="#projects">Projects</a>
             </li>
             <li class="nav-link">
-              <a href="#expertise">My expertise</a>
+              <a href="#expertise">Expertise</a>
             </li>
             <li class="nav-link">
               <a href="#contact">Contact</a>
@@ -48,12 +49,14 @@
             projects I have done. Thank you for taking time to look through my
             portfolio!
           </p>
+          <img class="my-image" src="assets/my-image.png" alt="A picture of me (Stian)">
         </div>
       </div>
 
-      <!-- Project Cards -->
-      <div class="card-container" id="projects">
-        <div class="card-container">
+      <!-- Project section -->
+      <div class="project-container" id="projects">
+        <h2 class="project-heading">Projects</h2>
+        <div class="card-container-top">
           <div class="card-container fadedisc-card">
             <div class="image-container">
               <img
@@ -67,16 +70,26 @@
                 alt="FadeDisc mobile view image"
               />
             </div>
+            <div class="text-container">
+              <h3 class="project-sub-headings">FadeDisc</h3>
+              <p class="description">FadeDisc is a blog website, containing blog posts about Disc Golf. It features a carousel, blog list with a load more button and contact form with error messages if the inputs isn't correct.</p>
+            </div>
             <div class="button-container">
               <button class="button github-button">
-                <a href="">GitHub</a>
+                <a
+                  href="https://github.com/Noroff-FEU-Assignments/project-exam-1-FadeCap"
+                  >GitHub</a
+                >
               </button>
               <button class="button live-website-button">
-                <a href="https://project-exam-semester-1-stian.netlify.app/">Netlify live host</a>
+                <a href="https://project-exam-semester-1-stian.netlify.app/"
+                  >Netlify live host</a
+                >
               </button>
             </div>
           </div>
-          <div class="card-container musem-card">
+
+          <div class="card-container museum-card">
             <div class="image-container">
               <img
                 class="images"
@@ -89,15 +102,25 @@
                 alt="Museum mobile view image"
               />
             </div>
+            <div class="text-container">
+              <h3 class="project-sub-headings">Community Science Museum</h3>
+              <p class="description">A museum website containing information on upcoming events and the exhibitions contained in the museum.</p>
+            </div>
             <div class="button-container">
               <button class="button github-button">
-                <a href="https://github.com/FadeCap/Semester-Project-1">GitHub</a>
+                <a href="https://github.com/FadeCap/Semester-Project-1"
+                  >GitHub</a
+                >
               </button>
               <button class="button live-website-button">
-                <a href="https://csm-semesterproj-stian.netlify.app/">Netlify live host</a>
+                <a href="https://csm-semesterproj-stian.netlify.app/"
+                  >Netlify live host</a
+                >
               </button>
             </div>
           </div>
+        </div>
+        <div class="card-container-bottom">
           <div class="card-container rainy-days-card">
             <div class="image-container">
               <img
@@ -111,25 +134,48 @@
                 alt="Rainy Days mobile view image"
               />
             </div>
+            <div class="text-container">
+              <h3 class="project-sub-headings">Rainy Days</h3>
+              <p class="description">A sportswear website featuring a shop with different outdoor jackets.</p>
+            </div>
             <div class="button-container">
               <button class="button github-button">
                 <a href="https://github.com/FadeCap/Rainy-Days-Stian">GitHub</a>
               </button>
               <button class="button live-website-button">
-                <a href="https://rainy-days-stian.netlify.app/">Netlify live host</a>
+                <a href="https://rainy-days-stian.netlify.app/"
+                  >Netlify live host</a
+                >
               </button>
             </div>
           </div>
         </div>
       </div>
-      <!-- Project Cards End -->
 
+    <!-- Expertise section -->
       <div class="expertise-section" id="expertise">
-        <!-- Expertise section content -->
+        <div class="expertise-container">
+        <div class="expertise-heading">
+            <h2>Expertise</h2>
+          </div>
+          <div class="expertise-logo-container">
+            <img src="assets/HTML-icon.svg" alt="HTML logo" class="expertise-logo-images"></i>
+             
+            <img src="assets/CSS-icon.png" alt="CSS logo" class="expertise-logo-images"></i>
+              
+            <img src="assets/Javascript-icon.svg" alt="Javascript logo" class="expertise-logo-images"></i>
+          </div>
+          </div>
       </div>
-
+    <!-- Contact section -->
       <div class="contact-section" id="contact">
-        <!-- Contact section content -->
+        <div class="contact-information-container">
+          <h2>Contact</h2>
+          <h3>Email:</h3>
+          <h3>stian94lb@gmail.com</h3>
+          <h3>My GitHub:</h3>
+          <h3><a class="fadecap-github-link" href="https://github.com/FadeCap">@FadeCap</a></h3>
+        </div>
       </div>
 
       <button class="scrollToTopBtn">
@@ -141,6 +187,10 @@
       </button>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <h3 class="copyright">© 2023 Stian Busengdal. All rights reserved.</h3>
+      </div>
+    </footer>
   </body>
 </html>
