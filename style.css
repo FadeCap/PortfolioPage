@@ -91,11 +91,8 @@ li:hover::before {
   align-items: center;
   gap: 2rem;
   letter-spacing: 2px;
-  height: 500px;
-}
-
-.welcome-heading {
-  font-size: 2.5rem;
+  height: 400px;
+  padding: 2rem;
 }
 
 .about-paragraph-container {
@@ -104,6 +101,7 @@ li:hover::before {
   align-items: center;
   font-size: 1.25rem;
   padding-top: 2rem;
+  gap: 2rem;
 }
 
 .my-image {
@@ -312,10 +310,6 @@ li:hover::before {
     padding: 2rem;
   }
 
-  .welcome-heading {
-    font-size: 1.5rem;
-  }
-
   .card-container {
     display: flex;
     flex-direction: column;
@@ -406,10 +400,6 @@ li:hover::before {
     text-align: center;
     align-items: center;
     letter-spacing: 1px;
-  }
-
-  .welcome-heading {
-    font-size: 1.5rem;
   }
 
   .card-container {
