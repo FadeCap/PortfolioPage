@@ -106,9 +106,9 @@ li:hover::before {
 
 .my-image {
   border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
 }
 
 .fadedisc-card,
