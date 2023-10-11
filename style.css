@@ -120,6 +120,7 @@ li:hover::before {
 
 .description {
   letter-spacing: 2px;
+  width: 300px;
 }
 
 .project-heading {
@@ -280,6 +281,98 @@ li:hover::before {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
+  .nav-bar {
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 5rem;
+    margin: 1rem 0;
+   font-size: 1rem;
+}
+
+  .header-container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+  }
+
+  .nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .welcome-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    padding: 2rem;
+  }
+
+  .welcome-heading {
+    font-size: 1.5rem;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .project-sub-headings {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .card-container-top {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    flex-direction: column;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+    padding: 2rem;
+}
+
+  .about-paragraph-container {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .expertise-logo-container {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+
+  .images {
+    max-width: 400px;
+    max-height: 180px;
+    border-radius: 8px;
+  }
+
+  .copywrite {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -326,7 +419,7 @@ li:hover::before {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     padding: 2rem;
-    max-width: 320px;
+    max-width: 310px;
     text-align: center;
     gap: 2rem;
   }
