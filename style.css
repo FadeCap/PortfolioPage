@@ -279,6 +279,11 @@ li:hover::before {
   margin-top: 5rem;
 }
 
+.scrollToTopBtn:hover {
+  cursor: pointer;
+  border: 2px solid #5f5f5f;
+}
+
 @media screen and (min-width: 601px) and (max-width: 1000px) {
   .nav-bar {
     display: flex;
