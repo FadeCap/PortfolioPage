@@ -111,9 +111,9 @@ li:hover::before {
   object-fit: cover;
 }
 
-.fadedisc-card,
-.rainy-days-card,
-.museum-card {
+.holidaze-card,
+.FadeShop-card,
+.BidWear-card {
   background: #0000003a;
 }
 
@@ -260,6 +260,7 @@ li:hover::before {
   border-radius: 8px;
   margin-top: 3rem;
   gap: 1rem;
+  width: 40rem;
 }
 
 .fadecap-github-link::before {
@@ -369,6 +370,11 @@ li:hover::before {
     padding: 2rem;
     gap: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .expertise-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .expertise-logo-container {
