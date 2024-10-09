@@ -161,6 +161,7 @@ li:hover::before {
   background: #0000003a;
   border-radius: 8px;
   padding: 2rem;
+  margin-bottom: 20rem;
 }
 
 .card-container {
@@ -193,6 +194,7 @@ li:hover::before {
   height: 300px;
   align-items: center;
   justify-content: center;
+  margin-top: 10rem
 }
 
 .expertise-container {
@@ -212,6 +214,8 @@ li:hover::before {
   gap: 4rem;
   padding-top: 1rem;
 }
+
+
 
 .expertise-logo-images {
   width: 4rem;
@@ -277,6 +281,15 @@ li:hover::before {
   font-size: 0.8rem;
   padding: 30px;
   margin-top: 5rem;
+}
+
+.expertise-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
 }
 
 .scrollToTopBtn:hover {
